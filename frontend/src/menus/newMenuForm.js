@@ -58,7 +58,7 @@ function NewMenuForm({addMenu}) {
               className="menuBtn"
               onSubmit={handleSubmit}
           >
-            Submit
+            Add Menu
           </button>
         </form>
       </div>
