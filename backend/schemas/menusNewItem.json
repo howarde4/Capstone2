@@ -1,0 +1,152 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "properties": {
+      "menu_id": {
+        "type": ["integer", "string"]
+      },
+      "item_name": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "ing1": {
+        "type": "string"
+      },
+      "ing2": {
+        "type": ["string", "null"]
+      },
+      "ing3": {
+        "type": ["string", "null"]
+      },
+      "ing4": {
+        "type": ["string", "null"]
+      },
+      "ing5": {
+        "type": ["string", "null"]
+      },
+      "ing6": {
+        "type": ["string", "null"]
+      },
+      "ing7": {
+        "type": ["string", "null"]
+      },
+      "ing8": {
+        "type": ["string", "null"]
+      },
+      "ing9": {
+        "type": ["string", "null"]
+      },
+      "ing10": {
+        "type": ["string", "null"]
+      },
+      "ing11": {
+        "type": ["string", "null"]
+      },
+      "ing12": {
+        "type": ["string", "null"]
+      },
+      "ing13": {
+        "type": ["string", "null"]
+      },
+      "ing14": {
+        "type": ["string", "null"]
+      },
+      "ing15": {
+        "type": ["string", "null"]
+      },
+      "ing16": {
+        "type": ["string", "null"]
+      },
+      "ing17": {
+        "type": ["string", "null"]
+      },
+      "ing18": {
+        "type": ["string", "null"]
+      },
+      "ing19": {
+        "type": ["string", "null"]
+      },
+      "ing20": {
+        "type": ["string", "null"]
+      },
+      "amt1": {
+        "type": ["string", "integer"]
+      },
+      "amt2": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt3": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt4": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt5": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt6": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt7": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt8": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt9": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt10": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt11": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt12": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt13": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt14": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt15": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt16": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt17": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt18": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt19": {
+        "type": ["string", "integer", "null"]
+      },
+      "amt20": {
+        "type": ["string", "integer", "null"]
+      },
+      "directions": {
+        "type": "string"
+      },
+      "img": {
+        "type": ["string", "null"]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "menu_id",
+      "item_name",
+      "category",
+      "ing1",
+      "amt1",
+      "directions"
+    ]
+  }
+  

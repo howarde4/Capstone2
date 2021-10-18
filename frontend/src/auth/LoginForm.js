@@ -1,0 +1,78 @@
+import React, { useState } from "react";
+import { Link, useHistory } from "react-router-dom";
+import Alert from "../common/Alert";
+import './LoginForm.css';
+
+function LoginForm({ login }) {
+  const history = useHistory();
+  const [formData, setFormData] = useState({
+    username: "",
+    password: "",
+  });
+  const [formErrors, setFormErrors] = useState([]);
+
+  console.debug(
+      "LoginForm",
+      "login=", typeof login,
+      "formData=", formData,
+      "formErrors", formErrors,
+  );
+
+  async function handleSubmit(evt) {
+    evt.preventDefault();
+    let result = await login(formData);
+    if (result.success) {
+      history.push("/menus");
+    } else {
+      setFormErrors(result.errors);
+    }
+  }
+
+  function handleChange(evt) {
+    const { name, value } = evt.target;
+    setFormData(l => ({ ...l, [name]: value }));
+  }
+
+  return (
+      <div id="LoginForm" className="container">
+        <h1 className='title'>Log In Below</h1>
+        <p style={{fontWeight:"bold"}}>Don't have an account? Sign up <Link className='link' to='/signup'>here</Link>!</p>
+        <form onSubmit={handleSubmit}>
+          <div className="form-group col-8">
+            <label>Username</label>
+            <input
+              name="username"
+              className="form-control"
+              value={formData.username}
+              onChange={handleChange}
+              autoComplete="username"
+              required
+            />
+          </div>
+          <div className="form-group col-8">
+            <label>Password</label>
+            <input
+              type="password"
+              name="password"
+              className="form-control"
+              value={formData.password}
+              onChange={handleChange}
+              autoComplete="current-password"
+              required
+            />
+          </div>
+          {formErrors.length
+            ? <Alert type="danger" messages={formErrors} />
+            : null}
+          <button
+            className="loginBtn"
+            onSubmit={handleSubmit}
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+  );
+}
+
+export default LoginForm;

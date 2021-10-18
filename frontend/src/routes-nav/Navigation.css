@@ -1,0 +1,46 @@
+
+.Navigation {
+    background-color: rgb(39, 37, 37);
+    border-bottom: 2px solid rgb(240, 209, 108);
+  }
+  
+  #navTitle {
+    color:rgb(246, 252, 160);
+    font-size: 38px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px 1px rgb(113, 12, 245),
+    -1px -2px 0 rgb(113, 12, 245),
+    -2px -3px 1px rgb(247, 29, 0),
+    2px 2px 0 rgb(0, 247, 255);
+  }
+  
+  .pandaNav {
+    margin-right: 10px;
+  }
+  
+  .navBtn {
+    font-weight: bold;
+    background-color: rgb(113, 12, 245);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(0, 247, 255);
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .navBtn:hover {
+    background-color: rgb(133, 82, 253);
+  }
+  
+  .nav-link {
+    color: white;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+  
+  .nav-link.active {
+    color: rgb(251, 255, 0);
+  }
+  
+  

@@ -1,0 +1,60 @@
+#ItemForm {
+    border: 3px solid black;
+	border-radius: 5px;
+	width: 800px;
+	padding: 50px;
+	box-sizing: border-box;
+    background-color: rgb(248, 241, 253);
+}
+
+span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.submitBtn {
+    background-color: rgb(246, 252, 160);
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgb(113, 12, 245);
+    padding: 5px;
+    width: 10rem;
+    float: right;
+    margin-right: 1rem;
+    margin-top: -1rem;
+}
+
+.submitBtn:hover {
+    color: white;
+    background-color: rgb(195, 160, 252);
+}
+
+.ItemTitle {
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    padding-bottom: 15px;
+    color: rgb(195, 160, 252);
+    text-shadow: 1px 1px 1px rgb(113, 12, 245),
+    -1px -1px rgb(113, 12, 245),
+    3px -2px 1px rgb(113, 12, 245);
+}
+
+.search {
+    background-color: rgb(195, 160, 252);
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgb(113, 12, 245);
+    padding: 12px;
+    width: 15rem;
+    margin: 2rem;
+}
+
+.search:hover {
+    color: rgb(195, 160, 252);
+    background-color: rgb(246, 252, 160);
+}

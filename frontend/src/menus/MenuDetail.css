@@ -1,0 +1,81 @@
+.menu {
+    background-color: rgb(248, 241, 253);
+    border: 5px solid rgb(109, 100, 237);
+	border-radius: 5px;
+	width: 500px;
+	padding: 30px;
+	box-sizing: border-box;
+    margin-left: 30%;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0 0 0 2px black inset,
+    0 0 2px 5px black
+}
+
+.menuTitle {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+    padding: 20px;
+    text-shadow: 1px 2px 1px rgb(109, 100, 237)
+}
+
+.detailBtn {
+    background-color: rgb(246, 252, 160);
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgb(113, 12, 245);
+    padding: 5px;
+    width: 250px;
+    margin: 1rem;
+}
+
+.detailBtn:hover {
+    color: white;
+    background-color: rgb(195, 160, 252);
+}
+
+.addBtn {
+    background-color: rgb(109, 100, 237);
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0 white,
+                -1px -1px 0 white,
+                -2px -2px 1px black, 
+                2px 2px 1px rgb(37, 1, 94);
+    padding: 5px;
+    margin-top: 60px;
+    width: 100px;
+}
+
+.addBtn:hover {
+    background-color: rgb(191, 136, 255);
+}
+
+.trashMenu {
+    background-color: rgba(250, 184, 184, 0.507);
+    border-left: 5px solid red !important;
+    border: none;
+    margin-left: -25px;
+}
+
+.trashMenu:hover {
+    background-color: rgb(245, 247, 123);
+}
+
+.menuTrash {
+    float: left;
+}
+
+#arrow {
+    color: rgb(113, 12, 245);
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+#arrow:hover {
+    color: rgb(195, 160, 252);
+}

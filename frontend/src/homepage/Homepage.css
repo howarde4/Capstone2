@@ -1,0 +1,39 @@
+.Homepage {
+    display: flex;
+    align-items: center;
+  }
+  
+  .homeTitle {
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: rgb(246, 252, 160);
+    text-shadow: 1px 1px 1px rgb(12, 230, 245),
+    2px 2px 2px rgb(113, 12, 245),
+    -1px -1px rgb(247, 29, 0),
+    -4px -4px 1px rgb(113, 12, 245);
+  }
+  
+  .homeBtn {
+    font-weight: bold;
+    background-color: rgb(246, 252, 160);
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgb(113, 12, 245);
+    width: 300px;
+    padding: 5px;
+    margin-top: 30px;
+  }
+  
+  .homeBtn:hover {
+    background-color: rgb(195, 160, 252);
+    color: white;
+  }
+  
+  .nameTitle {
+    font-family: Lobster, italic;
+    font-size: 4rem;
+    color: rgb(113, 12, 245);
+    text-shadow: 1px 1px 1px rgb(217, 255, 0),
+    -1px -2px 0 rgb(255, 251, 0),
+    -2px -3px 1px rgb(247, 29, 0);
+  }

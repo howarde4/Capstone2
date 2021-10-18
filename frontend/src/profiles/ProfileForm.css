@@ -1,0 +1,36 @@
+#ProfileForm {
+    border: 3px solid black;
+	border-radius: 5px;
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+    background-color: rgb(248, 241, 253);
+}
+
+.ProfileTitle {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: rgb(195, 160, 252);
+    text-shadow: 1px 1px 1px rgb(113, 12, 245),
+    -1px -1px rgb(113, 12, 245),
+    3px -2px 1px rgb(113, 12, 245);
+}
+
+.BtnDiv {
+    text-align: center;
+}
+
+.ProfileBtn {
+    background-color: rgb(246, 252, 160);
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgb(113, 12, 245);
+    padding: 5px;
+    width: 30rem;
+}
+
+.ProfileBtn:hover {
+    color: white;
+    background-color: rgb(195, 160, 252);
+}
