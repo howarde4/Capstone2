@@ -1,14 +1,19 @@
-recipeAPI = https://www.themealdb.com/api/json/v1/1/search.php?s=
+Second final project for bootcamp. 
+
+*******************************************************
 
 Title: Menu Builder
-URL: https://venomous-boat.surge.sh/
+
+Deployed with Surge- https://venomous-boat.surge.sh/
+
+recipeAPI = https://www.themealdb.com/api/json/v1/1/search.php?s=
 
 Menu Builder is a site that searches for recipes or allows you to add your own recipe so you can build custom menus for any event. 
 
 Features: 
 Navigation bar with title that links to home page and login or sign up buttons 
 Navigation bar if already logged in has links to menus, profile and logout
-Register new user to create your own profile
+Register new user with password to create your own profile
 Log In/Out to access your profile with your menus
 Profile edit form to update your information
 New menu form to add a menu to your account
@@ -54,7 +59,7 @@ Technology:
 Backend-
 Express
 Node
-Postgres SQL
+PostgreSQL
 Axios
 Cors
 Bcrypt
