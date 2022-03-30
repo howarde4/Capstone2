@@ -1,6 +1,6 @@
-Second final project for bootcamp. 
+Second final project completed for Springboard bootcamp. Solo, full stack project- responsible for both front and back end development as well as design. Backend developed with Express, created a database with PostgreSQL to store user registration, password, menus, menu items and recipes. Username password encrypted with bcrypt. Frontend developed with React, Bootstrap, HTML, CSS.
 
-*******************************************************
+*********************************************************************
 
 Title: Menu Builder
 
@@ -13,7 +13,7 @@ Menu Builder is a site that searches for recipes or allows you to add your own r
 Features: 
 Navigation bar with title that links to home page and login or sign up buttons 
 Navigation bar if already logged in has links to menus, profile and logout
-Register new user with password to create your own profile
+Register new user to create your own profile
 Log In/Out to access your profile with your menus
 Profile edit form to update your information
 New menu form to add a menu to your account
