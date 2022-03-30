@@ -1,7 +1,12 @@
-recipeAPI = https://www.themealdb.com/api/json/v1/1/search.php?s=
+Second final project completed for Springboard bootcamp. Solo, full stack project- responsible for both front and back end development as well as design. Backend developed with Express, created a database with PostgreSQL to store user registration, password, menus, menu items and recipes. Username password encrypted with bcrypt. Frontend developed with React, Bootstrap, HTML, CSS.
+
+*********************************************************************
 
 Title: Menu Builder
-URL: https://venomous-boat.surge.sh/
+
+Deployed with Surge- https://venomous-boat.surge.sh/
+
+recipeAPI = https://www.themealdb.com/api/json/v1/1/search.php?s=
 
 Menu Builder is a site that searches for recipes or allows you to add your own recipe so you can build custom menus for any event. 
 
@@ -54,7 +59,7 @@ Technology:
 Backend-
 Express
 Node
-Postgres SQL
+PostgreSQL
 Axios
 Cors
 Bcrypt
